@@ -570,6 +570,7 @@ input[type="submit"],
 }
 .top-bar-section {
   margin-bottom: 1rem;
+  text-align: center;
 }
 .top-bar-section .section-header + .cta-link {
   float: right;
@@ -588,9 +589,15 @@ input[type="submit"],
 }
 
 .section-header {
-  padding: 1.5rem;
+  padding: 1.5rem 1rem;
   line-height: 1rem;
   text-align: center;
+  width: 701px;
+  align-content: center;
+  display: inline-block;
+  background: #fafbfd94;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 2px -1px #444343;
 }
 .section-header a {
   color: #252525;
